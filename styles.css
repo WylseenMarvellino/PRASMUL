@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 200vh;
+    background-color: #00376a;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: burlywood;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* HEADER */
+
+header .container {
+    justify-content: space-between;
+    height: 60px;
+    background-color: #00376a;
+}
+
+header .container .nav-header {
+    width: 565px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header .container a {
+    font-size: 13px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: gray;
+}
+
+header .container .nav-header a.btn {
+    display: inline-block;
+    background-color: rgb(61,177, 102);
+    color: white;
+    font-weight: bold;
+    padding: 0 5px;
+    height: 60px;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* sticky */
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav .container {
+    justify-content: space-between;
+    height: 90px;
+    background-color: white;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-image: url(Logo-Universitas-Prasetiya-Mulya.webp);
+}
+
+nav .container ul.sticky-nav li.item {
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* section hero */
+
+section.hero {
+    height: calc(100vh - 60px - 91px);
+    background-color: yellow;
+    background-image: url(Web-banner-S2-AskPrasmul-Maret-Universitas-Prasetiya-Mulya.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.hero .container {
+    background-color: rgba(255, 255, 255, 0);
+}
